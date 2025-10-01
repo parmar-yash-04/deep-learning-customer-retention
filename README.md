@@ -2,7 +2,6 @@
   <h1>🤖 Customer Churn Prediction using Deep Learning (ANN)</h1>
   <p><em>End-to-end churn analysis and prediction using Artificial Neural Networks in TensorFlow/Keras, implemented in a Jupyter Notebook.</em></p>
   <div>
-    <img src="https://img.shields.io/badge/python-3.8%2B-blue" alt="python"/>
     <img src="https://img.shields.io/badge/deep--learning-Keras%2FTensorFlow-red" alt="dl"/>
     <img src="https://img.shields.io/badge/jupyter-notebook-orange" alt="notebook"/>
     <img src="https://img.shields.io/badge/license-MIT-green" alt="license"/>
@@ -31,22 +30,9 @@
   <li>📥 Dataset</li>
   <li>🧭 Notebook Sections</li>
   <li>⚙️ Requirements & Setup</li>
-  <li>📊 Model Architecture</li>
   <li>🔍 Results</li>
-  <li>🚀 Next Steps</li>
   <li>🧾 License & Contact</li>
 </ol>
-
----
-
-<h3>📁 Repository Structure</h3>
-<pre>
-/ (repo root)
-├─ customer-churn-analysis.ipynb   # main notebook (ANN model)
-├─ data/                           # dataset (CSV)
-├─ requirements.txt                # dependencies
-└─ README.md                       # this file
-</pre>
 
 ---
 
@@ -93,17 +79,6 @@ jupyter notebook
 
 ---
 
-<h3>📊 Model Architecture</h3>
-<pre>
-Input Layer (features)
- → Dense(128, activation='relu') + BatchNorm + Dropout(0.3)
- → Dense(64, activation='relu') + BatchNorm + Dropout(0.2)
- → Dense(32, activation='relu')
- → Dense(1, activation='sigmoid')   # churn probability
-</pre>
-
----
-
 <h3>🔍 Results</h3>
 <ul>
   <li>Customers with <strong>month-to-month contracts</strong> and <strong>higher monthly charges</strong> show higher churn.</li>
@@ -113,18 +88,5 @@ Input Layer (features)
 
 ---
 
-<h3>🚀 Next Steps</h3>
-<ol>
-  <li>Hyperparameter tuning with Keras Tuner or Optuna.</li>
-  <li>Class imbalance handling with <code>class_weight</code> or resampling.</li>
-  <li>Explainability with SHAP or LIME for ANN.</li>
-  <li>Deploy via Flask/FastAPI or TensorFlow Serving.</li>
-</ol>
-
----
-
 <h3>🧾 License & Contact</h3>
 <p>This project is licensed under MIT. For queries, raise an issue or reach via your GitHub profile.</p>
-
-<hr/>
-<p style="font-size:0.9em; color: #666;">Generated from <code>customer-churn-analysis.ipynb</code> • ANN-based Deep Learning README</p>
