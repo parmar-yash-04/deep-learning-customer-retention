@@ -94,6 +94,3 @@ The project also includes data preprocessing, exploratory data analysis (EDA), a
   <li><strong>Metrics:</strong> Accuracy</li>
   <li><strong>Best Accuracy:</strong> <code>85%</code></li>
 </ul>
-
----
-
