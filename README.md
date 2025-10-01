@@ -97,25 +97,3 @@ The project also includes data preprocessing, exploratory data analysis (EDA), a
 
 ---
 
-<h2>🌐 Streamlit Web Application (Optional)</h2>
-
-<ul>
-  <li>User form to input customer details</li>
-  <li>Real-time churn prediction using ANN model</li>
-  <li>Output: "Customer Likely to Churn" or "Customer Retained"</li>
-</ul>
-
-<h3>🚀 Run Locally</h3>
-
-```bash
-# Clone repo
-git clone https://github.com/your-username/customer-churn-ann.git
-cd customer-churn-ann
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run Jupyter Notebook or Streamlit App
-jupyter notebook Customer_Churn_ANN.ipynb
-# OR
-streamlit run app.py
